@@ -1,0 +1,21 @@
+h3{
+    font-size: 30px !important;
+    width: 40%;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes sample{
+    from{
+        box-shadow: 1px 1px 40px yellowgreen;
+    }
+    to{
+        box-shadow: 1px 1px 40px rebeccapurple;
+    }
+}
